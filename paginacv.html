@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Diseñador Gráfico</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 400;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/a5.png') no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+    }
+
+    .hero p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #fff;
+      color: #111;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: 600;
+    }
+
+    section {
+      padding: 60px 50px;
+    }
+
+    .about, .contact {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .project img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .project h3 {
+      padding: 15px;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jesus Neri Sosa</h1>
+  <nav>
+    <a href="#about">Sobre mí</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Diseñador Gráfico</h2>
+  <p>Creatividad • Branding • Diseño Digital</p>
+  <a href="#projects" class="btn">Ver Portafolio</a>
+</section>
+
+<section id="about" class="about">
+  <h2>Sobre mí</h2>
+  <p>
+    Soy un diseñador gráfico apasionado por crear identidades visuales únicas y experiencias digitales atractivas.
+    Me especializo en branding, ilustración y diseño editorial.
+  </p>
+</section>
+
+<section id="projects">
+  <h2 style="text-align:center; margin-bottom: 40px;">Proyectos</h2>
+  <div class="projects">
+
+    <div class="project">
+      <img src="/a1.png" alt="Proyecto 1">
+      <h3>Identidad de Marca</h3>
+    </div>
+
+    <div class="project">
+      <img src="/a2.png" alt="Proyecto 2">
+      <h3>Diseño Editorial</h3>
+    </div>
+
+    <div class="project">
+      <img src="/a6.png" alt="Proyecto 3">
+      <h3>CV</h3>
+    </div>
+
+    <div class="project">
+      <img src="/a7.png" alt="Proyecto 4"> <a href="https://www.instagram.com/nesj.dg/" target="_blank"> 
+      <h3>Ejemplos en redes</h3>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contacto</h2>
+  <p>Email: jesusns.2604@gmail.com</p>
+  <p>Instagram: @nesj.dg</p>
+  <p>Numero: +52 729 137 0975</p>
+</section>
+
+<footer>
+  <p>© 2026 Jesus Neri | Diseñador Gráfico</p>
+</footer>
+
+</body>
+</html>
